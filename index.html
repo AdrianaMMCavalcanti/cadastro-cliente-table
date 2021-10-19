@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto4 </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Cadastro de clientes</h1>
+  </header>
+
+
+  <main>
+
+    <form>
+      <div class="geral">
+
+        <div id="labels">
+          <label>Nome e sobrenome:<span>*</span></label>
+          <label>Telefone:<span>*</span></label>
+          <label>E-mail:<span>*</span></label>
+          <label>Rua:<span>*</span></label>
+          <label>Número da Casa:<span>*</span></label>
+          <label>Bairro:<span>*</span></label>
+          <label>Cidade:<span>*</span></label>
+          <label>Estado:<span>*</span></label>
+        </div>
+
+        <div id="inputs">
+          <input id="nome" type="text" value="a">
+          <input id="telefone" type="number" value="8">
+          <input id="email" type="text" value="a">
+          <input id="rua" type="text" value="a">
+          <input id="num" type="number" value="7">
+          <input id="bairro" type="text" value="a">
+          <input id="cidade" type="text" value="a">
+          <input id="estado" type="text" value="a">
+        </div>
+
+      </div>
+    </form>
+
+    <button onclick="cadastrarCliente()">Cadastrar</button>
+
+
+
+    <div id="tabela">
+      <h2>Clientes cadastrados</h2>
+      <table>
+        <thead>
+          <th>Nome e Sobrenome</th>
+          <th>Telefone</th>
+          <th>E-mail</th>
+          <th>Rua</th>
+          <th>Número da Casa</th>
+          <th>Bairro</th>
+          <th>Cidade</th>
+          <th>Estado</th>
+          <th>Data</th>
+          <th>Opções</th>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+
+      </table>
+    </div>
+
+
+  </main>
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>

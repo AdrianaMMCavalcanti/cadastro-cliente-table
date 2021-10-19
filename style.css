@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Pacifico&display=swap');
+
+
+h1 {
+  
+  font-size: 70px;
+  text-align: center;
+  color: #8B4513;
+  font-family: 'Acme', sans-serif;
+  
+  
+
+}
+
+main{
+  
+  font-size: 20px;
+ 
+}
+
+#labels label{
+  display: block;
+  padding: 12px;
+  font-weight: bold;
+}
+
+#labels{
+  background-color: rgb(204, 247, 232);
+  width: 300px 
+ 
+}
+
+#inputs input{
+  display: block;
+  margin: 8px;
+  background-color: #FFFFF0;
+  width: 500px;
+  padding: 10px;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+  color: #8B4513;
+  font-weight: bolder;
+  font-family: 'Acme', sans-serif;
+  font-size: 50px;
+}
+
+  .table, th{
+    background-color:darkseagreen;
+    margin: auto;
+    width: 10%;
+    
+    
+  }
+
+button{
+  font-size: 30px;
+  background-color: #FFA500;
+  display: block;
+  padding: 10px;
+  margin: 30px auto;
+ 
+}
+
+.geral {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  background-color: rgb(204, 247, 232);
+ }
+
+button:hover, input:focus {
+  border-radius: 20px;
+}
+
+button:active {
+  background-color: lawngreen;
+}
+span{
+  color: red;
+
+}
+
+td {
+  text-align: center;
+
+}
+img {
+  width: 25px;
+
+}
